@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/停车.png</file>
+        <file>img/biaoge.png</file>
+        <file>img/cam.png</file>
+        <file>img/chuku.png</file>
+        <file>img/file.png</file>
+        <file>img/judge.png</file>
+        <file>img/ruku.png</file>
+    </qresource>
+</RCC>
