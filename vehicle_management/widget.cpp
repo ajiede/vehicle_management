@@ -227,14 +227,8 @@ void Widget::on_btn_judgeImg_clicked()
     multiPart->append(imagePart);
 
 
-    // 使用百度ai的ak和sk
-    //    QUrl url = QString("https://aip.baidubce.com/oauth/2.0/token?client_id=%1&client_secret=%2&grant_type=client_credentials")
-    //        .arg("xKZWvYLspFrI6WEFBWKY9T7i")
-    //        .arg("ECOqj0ENOm8BOpk5MlkTGxEooGfjf04q");
-
     // 使用百度token（如何获取，参考百度api接口测试 给出的视频讲解）
-    QUrl url =  QString("https://aip.baidubce.com/rest/2.0/ocr/v1/license_plate?"
-                        "access_token=24.3b71192ecab2a81ee8d39824ed3f6fd2.2592000.1698413165.282335-40076007");
+    QUrl url =  QString("填入百度AI的api接口");
     // 创建HTTP请求对象
     QNetworkRequest request(url);
 
